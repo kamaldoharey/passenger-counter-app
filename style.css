@@ -1,0 +1,30 @@
+body{
+    background-image: url("../station.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn-inc{
+    background-color: darkred;
+    color:white;
+    margin-top: 1rem;
+}
+
+#btn-save{
+    background-color: darkgreen;
+    color:white;
+    margin-top: 1rem;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 0.5em;
+    border-radius: 0.3em;
+}
+
+#text-result{
+    font-size: 2rem;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
